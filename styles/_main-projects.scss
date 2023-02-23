@@ -122,3 +122,17 @@ table{
 
 }
 
+.img-bottom {
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 5%;
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+}
+
