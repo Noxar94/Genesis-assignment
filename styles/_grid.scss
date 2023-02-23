@@ -16,7 +16,7 @@
   grid-template-columns: repeat(9, 1fr);
   grid-template-rows: repeat(32, 1fr);
   grid-gap: 10px;
-  margin: auto;
+  
   width: 85%;
   height: 1960px;
   background-color: #E5E5E5;
@@ -101,3 +101,51 @@
   
 }
 
+.section4 {
+  width: 85%;
+  
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 101px;
+  
+
+
+}
+
+.grid-container {
+  display: grid;
+  
+  grid-template-columns: 2fr 1fr 1fr 50px; 
+  grid-template-rows: 60% 100%;
+  border-top: 1px solid #777;
+
+  h2{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    color: #111111;
+
+  }
+  h3 {
+
+  }
+  h4{
+
+  }
+  p {
+
+  }
+
+}
+
+.grid-item {
+  
+  padding-top: 50px;
+  padding-bottom: 50px;
+  
+}
